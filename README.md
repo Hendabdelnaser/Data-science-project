@@ -1,8 +1,8 @@
-# # Project Title
+# Project Title
 
-# Toxic Comment Classification Using Machine Learning
+## Toxic Comment Classification Using Machine Learning
 
-# # Project Description
+# Project Description
 
 This project builds a machine learning system to automatically detect toxic comments in online platforms.
 
@@ -14,18 +14,18 @@ The system classifies comments into multiple categories:
 - Insult
 - Identity Hate
 
-# # Problem Statement
+# Problem Statement
 
 Manual moderation of online comments is time-consuming and inefficient.
 This project aims to automate toxicity detection using NLP and machine learning techniques.
 
-# # Dataset
+# Dataset
 
 We used the Jigsaw Toxic Comment Classification dataset.
 Input: Comment text  
 Output: Multi-label toxicity categories
 
-# # Pipeline Steps
+# Pipeline Steps
 
 1. Data Cleaning & Preprocessing
 2. Exploratory Data Analysis (EDA)
@@ -34,7 +34,7 @@ Output: Multi-label toxicity categories
 5. Model Evaluation & Comparison
 6. Prediction System
 
-# # Models Used
+# Models Used
 
 - Logistic Regression
 - Support Vector Machine (SVM)
@@ -42,16 +42,16 @@ Output: Multi-label toxicity categories
 - Random Forest
 - KNN
 
-# # Evaluation Metrics
+# Evaluation Metrics
 - Accuracy
 - Precision
 - Recall
 - F1-score (Main metric due to imbalance)
 
-# # Key Insight
+# Key Insight
 The dataset is highly imbalanced, so F1-score (macro) is more reliable than accuracy.
 
-# # How to Run the Project
+# How to Run the Project
 
 1. Clone the repository
 2. Install dependencies:
@@ -59,7 +59,7 @@ The dataset is highly imbalanced, so F1-score (macro) is more reliable than accu
 3. Run preprocessing and training notebooks
 4. Run prediction script or Gradio app
 
-# # Conclusion
+# Conclusion
 
 This project successfully built an NLP-based system to detect toxic comments using machine learning models. After preprocessing the text and applying TF-IDF, different models were trained and evaluated to classify multiple toxicity labels.
 The results showed that ML models like SVM and Logistic Regression can effectively identify harmful content and help improve online safety through automatic moderation
